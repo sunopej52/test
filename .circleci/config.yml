@@ -14,8 +14,8 @@ jobs:
     steps:
       - checkout
       - run: |
-      echo "this is the test job"
-      echo "validation 2023"
+        echo "this is the test job"
+        echo "validation 2023"
 
 # Orchestrate our job run sequence
 workflows:
